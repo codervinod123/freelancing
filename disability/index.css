@@ -1,0 +1,14 @@
+.certificate {
+    width: 210mm;
+    height: 292mm;
+    padding: 4px;
+    box-sizing: border-box;
+  }
+
+
+  .muhar{
+    background-image: url("assets/muhar.jpg");
+    background-repeat: no-repeat;
+    background-size: 120px;
+ 
+  }

@@ -1,0 +1,21 @@
+
+
+
+
+
+.certificate {
+    width: 210mm;
+    height: 292mm;
+    padding: 4px;
+    box-sizing: border-box;
+  }
+
+.right_mark{
+ background-image: url("asets/greenbg.jpg");
+ background-position: right 10px bottom 6px;
+ background-size: 30px;
+ background-repeat: no-repeat;
+
+}
+  
+  

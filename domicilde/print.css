@@ -1,0 +1,8 @@
+@media print {
+    body {
+      background-image: url('assets/bkg.jpg') !important;
+      background-repeat: repeat !important;
+    }
+  }
+
+  

@@ -1,0 +1,15 @@
+.certificate {
+    width: 210mm;
+    height: 292mm;
+    padding: 4px;
+    box-sizing: border-box;
+  }
+
+
+  .greentick{
+    background-image: url("assets/ttt.png");
+    background-size: 50px;
+    background-position: bottom left 45px;
+    background-repeat: no-repeat;
+
+  }
