@@ -1,0 +1,26 @@
+.container{
+    height: 500px;
+    border: 2px solid red;
+    display: grid;
+    grid-template-columns: 400px 830px;
+    grid-template-rows: 50px 200px 50px;
+    grid-template-areas: "hd hd" "sd cnt" "foo foo";
+   
+}
+.box{
+    background-color: green;
+    border: 1px solid red;
+  
+}
+
+#b1{
+    grid-area: hd;
+}
+#b2{
+   grid-area: sd;
+}
+
+
+#b4{
+    grid-area: foo;
+}

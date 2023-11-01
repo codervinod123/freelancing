@@ -1,0 +1,137 @@
+
+ @import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@200&family=Lexend+Peta:wght@300&family=Tiro+Devanagari+Hindi&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    /* font-family: 'Lexend Peta', sans-serif;
+    font-family: 'Tiro Devanagari Hindi', serif; */
+}
+
+#wrapper{
+    height: 100vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.container{
+   width: 1200px;
+   padding: 0 auto;
+}
+
+
+.nav_bar{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1rem;
+    align-items: center;
+}
+
+.logo_item{
+    display: flex;
+    align-items: center;   
+    justify-content: baseline;
+}
+
+.logo_text{
+    margin-left: -1.5rem;
+    font-size: 26px;
+}
+
+.logo{
+    width: 80px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.navi_menu{
+    display: flex;
+    gap: 2rem;
+    padding: 0 4rem;
+}
+
+
+
+.navi_menu div{
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 500;
+
+}
+
+.navi_menu div:hover{
+    font-weight: bold;
+    transition: 1s;
+}
+
+
+.hero_section{
+    /* position: absolute; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 4rem auto;
+    padding: 0 1rem;
+    padding-bottom: 8rem;
+    gap: 5rem;
+
+}
+
+.faided_text{
+
+
+    user-select: none;
+    font-size: 7rem;
+    color: rgba(231, 231, 231);
+    font-weight: bold;
+    bottom: -16%;
+    left: -5%;
+    transition: all 3s;
+
+
+}
+
+.hero_left{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.name{
+    font-size: 35px;
+    color: #343d68;
+    font-weight: 500;
+}
+
+.role{
+    color: #4e45d5;
+    font-weight: 800;
+    
+}
+
+.description{
+    font-weight: 500;
+    width: 70%;
+    margin-top: 1rem;
+}
+
+.button{
+    background-color: rgb(27, 239, 130);
+    width: fit-content;
+    padding: .5rem 1rem;
+    color: black;
+    font-weight: 700;
+    border-radius: 2px;
+}
+
+.hero_right{
+    position: absolute;
+}

@@ -1,0 +1,16 @@
+.certificate {
+    width: 210mm;
+    height: 292mm;
+    padding: 4px;
+    box-sizing: border-box;
+  }
+
+
+  .image_bg{
+    background-image: url("assets/midlogo.jpg");
+    background-repeat: no-repeat;
+    background-size: 300px;
+    background-position: center;
+   
+  }
+

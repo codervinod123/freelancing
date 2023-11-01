@@ -36,19 +36,24 @@ img {
   height: auto;
 }
 
-.text-overlay {
-  rotate: -18deg;
-  position: absolute;
+.pp {
+  
+  
+  background-image: url("./asets//pppppppp.png");
+  background-repeat: no-repeat;
   top: 60%;
-  left: 53%;
+  background-position: 113px -20px;
+  background-size: 550px;
+   
+  /*left: 53%;
   opacity: .2;
   transform: translate(-50%, -50%);
-  text-align: center;
+  text-align: center; */
   /* color: #c1b7b7; Text color */
 
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   padding: 20px;
-  border-radius: 10px;
+  border-radius: 10px; */
 }
 
 h1 {
